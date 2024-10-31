@@ -1,0 +1,3 @@
+<IfModule mod_rewrite.c>
+	RewriteRule ^credentials\.json$ - [F,L,NC]
+</IfModule>
